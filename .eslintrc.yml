@@ -1,0 +1,15 @@
+{
+  env: {
+    browser: true,
+    commonjs: true,
+    jasmine: true
+  },
+  extends: [
+    "./lints/eslintrc-js.js",
+    "./lints/eslintrc-ts.js"
+  ],
+  ignorePatterns: [
+    "**/dist/*",
+    "**/node_modules/*"
+  ]
+}
