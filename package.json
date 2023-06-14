@@ -1,14 +1,15 @@
 {
-  "name": "screeps-arena",
+  "name": "screeps-arena-typescript-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"src/**/*.ts\"",
-    "build": "rollup -c --conf"
+    "build": "rollup -c --conf",
+    "watch": "rollup -cw --conf"
   },
   "keywords": [],
-  "author": "Léal Bioley <leal.bioley@syware.ch> (https://www.syware.ch/)",
+  "author": "Léal Bioley",
   "license": "ISC",
   "engines": {
     "node": "16.x || 18.x"
@@ -16,7 +17,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.1",
     "@rollup/plugin-node-resolve": "15.1.0",
-    "@rollup/plugin-typescript": "^11.1.1",
+    "@rollup/plugin-typescript": "11.1.1",
     "@types/node": "20.3.1",
     "@types/screeps-arena": "0.0.1",
     "@typescript-eslint/eslint-plugin": "5.59.11",
@@ -26,7 +27,7 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
-    "fast-glob": "^3.2.12",
+    "fast-glob": "3.2.12",
     "rollup": "3.25.1",
     "rollup-plugin-clear": "2.0.7",
     "typescript": "5.1.3"

@@ -43,4 +43,6 @@ It will create the corresponding **arena** in the `build` folder.
 
 then you just need to select the built **arena folder** (in the build folder) inside the game
 
+> Note: If you prefer, you can replace `build` by `watch`. It will build as soon as a file modification is detected
+
 Enjoy!
